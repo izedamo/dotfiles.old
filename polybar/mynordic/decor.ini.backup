@@ -1,0 +1,40 @@
+;; DECOR _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/sep]
+type = custom/text
+content = |
+
+content-background = ${color.BGL}
+content-foreground = ${color.WHITE}
+
+[module/dot]
+type = custom/text
+content = 
+
+content-background = ${color.BGTRANSPARENT}
+content-foreground = ${color.BGL}
+content-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/LD]
+type = custom/text
+content = "%{T4}%{T-}"
+;;content = "%{T3}%{T-}"
+content-background = ${color.BGTRANSPARENT}
+content-foreground = ${color.BGL}
+
+[module/RD]
+type = custom/text
+content = "%{T4}%{T-}"
+content-background = ${color.BGTRANSPARENT}
+content-foreground = ${color.BGL}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+;;	    __________  ______
+;;	   / ____/ __ \/ ____/
+;;	  / __/ / / / / /_    
+;;	 / /___/ /_/ / __/    
+;;	/_____/\____/_/       
+;;
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

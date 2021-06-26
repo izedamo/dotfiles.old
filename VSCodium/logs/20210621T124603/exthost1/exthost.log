@@ -1,0 +1,91 @@
+[2021-06-21 12:46:17.424] [exthost] [info] extension host started
+[2021-06-21 12:46:17.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-21 12:46:17.479] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-21 12:46:17.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-21 12:46:17.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2021-06-21 12:46:17.731] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-06-21 12:46:17.732] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/batman/.vscode-oss/extensions/zhuangtongfa.material-theme-3.10.14/out/extension.js
+[2021-06-21 12:46:18.482] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-06-21 12:46:18.486] [exthost] [error] Activating extension vscode.debug-auto-launch failed due to an error:
+[2021-06-21 12:46:18.486] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8206
+	at Array.forEach (<anonymous>)
+	at dispose (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8154)
+	at E.terminate (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:687)
+	at u (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31696)
+	at Socket.<anonymous> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29491)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-06-21 12:46:18.487] [exthost] [error] Activating extension vscode.git failed due to an error:
+[2021-06-21 12:46:18.487] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8206
+	at Array.forEach (<anonymous>)
+	at dispose (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8154)
+	at E.terminate (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:687)
+	at u (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31696)
+	at Socket.<anonymous> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29491)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-06-21 12:46:18.488] [exthost] [error] Activating extension zhuangtongfa.material-theme failed due to an error:
+[2021-06-21 12:46:18.488] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8206
+	at Array.forEach (<anonymous>)
+	at dispose (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:8154)
+	at E.terminate (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:687)
+	at u (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:31696)
+	at Socket.<anonymous> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:29491)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2021-06-21 12:46:18.489] [exthost] [info] eager extensions activated
+[2021-06-21 12:46:18.490] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-06-21 12:46:18.490] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.D.charCodeAt.b.<computed> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-21 12:46:18.491] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-06-21 12:46:18.492] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.D.charCodeAt.b.<computed> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-21 12:46:18.493] [exthost] [error] Activating extension vscode.testing-editor-contributions failed due to an error:
+[2021-06-21 12:46:18.493] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.D.charCodeAt.b.<computed> (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-21 12:46:19.484] [exthost] [info] exiting with code 0

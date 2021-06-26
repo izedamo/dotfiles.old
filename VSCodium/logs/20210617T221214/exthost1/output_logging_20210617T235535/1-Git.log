@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.32.0 from git
+Opening repository for path='/home/batman/.config/openbox' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/batman/.config/openbox/autostart' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/kbinds.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/menu.xml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/rc.xml' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/rc.xml.20210613-0244' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/rc.xml.20210615-1908' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/batman/.config/openbox/styles' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
